@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: #000;
+  cursor: none;
+}
+
+::selection {
+  background: rgba(66, 153, 225, 0.3);
+}
+
+/* Hide default cursor */
+* {
+  cursor: none !important;
+}
